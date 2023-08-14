@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-image: url("https://assets.codepen.io/3383494/money.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
+
+}
+
+.main{
+  height:100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center; 
+  background-image: linear-gradient(315deg, #323232 0%, #09203f 74% ); 
+ opacity: 0.9;
+   background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.outerContainer {
+  min-width:40vw;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: rgb(51, 174, 222,0.1);
+  padding: 20px;
+  border-radius: 20px;
+  border:1px solid rgb(51, 174, 222,1);
+
+  
+}
+.innerContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+    
+}
+
+input {
+  display: grid;
+  padding: 10px;
+  text-align: center;
+  border: #0b4287;
+  border-radius: 10px;
+  border: 1px solid #dbe1e5;
+}
+select {
+  background-color: #283a52;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #dbe1e5;
+  cursor: pointer;
+}
+#original-currency-amount{
+  cursor: pointer;  
+}
+
+input:focus {
+  outline: 0;
+}
+
+
+select:focus{
+  outline: none;
+}
